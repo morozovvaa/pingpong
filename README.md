@@ -8,9 +8,9 @@ docker-compose up -d
 
 ## Тестирование
 
-http://localhost:3001/ping - Instance 1
-http://localhost:3002/ping - Instance 2
-http://localhost:3003/ping - Instance 3
+http://localhost:3001/ping - Instance 1  
+http://localhost:3002/ping - Instance 2  
+http://localhost:3003/ping - Instance 3  
 
 Или через curl:
 ```
