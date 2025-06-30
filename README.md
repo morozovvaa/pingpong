@@ -1,7 +1,7 @@
 # Простое ping-pong приложение с тремя экземплярами на разных портах.
 ## Запуск
 ```
-bashgit clone <your-repo-url>
+git clone <https://github.com/morozovvaa/pingpong>
 cd ping-pong-app
 docker-compose up -d
 ```
