@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  ping-pong-1:
+    build: .
+    ports:
+      - "3001:3000"
+    environment:
+      - PORT=3000   
+      - PONG_MESSAGE=Pong from Instance 1! 🚀
+    container_name: ping-pong-instance-1
+
+  ping-pong-2:
+    build: .
+    ports:
+      - "3002:3000"  
+    environment:
+      - PORT=3000    
+      - PONG_MESSAGE=Pong from Instance 2! 
+    container_name: ping-pong-instance-2
+
+  ping-pong-3:
+    build: .
+    ports:
+      - "3003:3000"  
+    environment:
+      - PORT=3000   
+      - PONG_MESSAGE=Pong from Instance 3! 
+    container_name: ping-pong-instance-3
